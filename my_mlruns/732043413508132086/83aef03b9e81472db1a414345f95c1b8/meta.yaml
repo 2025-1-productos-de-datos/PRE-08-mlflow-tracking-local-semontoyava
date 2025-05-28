@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Especializacion/Productos_de_datos/entorno/PRE-08-mlflow-tracking-local-semontoyava/my_mlruns/732043413508132086/83aef03b9e81472db1a414345f95c1b8/artifacts
+end_time: 1748472539041
+entry_point_name: ''
+experiment_id: '732043413508132086'
+lifecycle_stage: active
+run_id: 83aef03b9e81472db1a414345f95c1b8
+run_name: elasticnet_76893341
+run_uuid: 83aef03b9e81472db1a414345f95c1b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748472538983
+status: 3
+tags: []
+user_id: Admin

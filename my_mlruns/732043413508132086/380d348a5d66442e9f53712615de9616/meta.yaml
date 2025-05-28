@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Especializacion/Productos_de_datos/entorno/PRE-08-mlflow-tracking-local-semontoyava/my_mlruns/732043413508132086/380d348a5d66442e9f53712615de9616/artifacts
+end_time: 1748472529663
+entry_point_name: ''
+experiment_id: '732043413508132086'
+lifecycle_stage: active
+run_id: 380d348a5d66442e9f53712615de9616
+run_name: knn_8efd60f2
+run_uuid: 380d348a5d66442e9f53712615de9616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748472529600
+status: 3
+tags: []
+user_id: Admin

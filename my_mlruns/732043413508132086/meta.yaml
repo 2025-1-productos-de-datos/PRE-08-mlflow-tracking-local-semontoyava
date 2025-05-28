@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Especializacion/Productos_de_datos/entorno/PRE-08-mlflow-tracking-local-semontoyava/my_mlruns/732043413508132086
+creation_time: 1748472524584
+experiment_id: '732043413508132086'
+last_update_time: 1748472524584
+lifecycle_stage: active
+name: wine_quality_experiment
