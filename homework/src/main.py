@@ -40,7 +40,7 @@ def main():
     ## o un bucket de S3, por ejemplo.
     ##
     working_directory = os.path.abspath(os.getcwd())
-    mlflow_runs_path = os.path.join(working_directory, "my_mlruns")
+    mlflow_runs_path = os.path.join(working_directory, "mlruns")
     if not os.path.exists(mlflow_runs_path):
         os.makedirs(mlflow_runs_path)
     mlflow.set_tracking_uri(pathlib.Path(mlflow_runs_path).as_uri())
