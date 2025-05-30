@@ -1,7 +1,7 @@
 ## Example:
 
-python 3 -m homework --model knn 
-python 3 -m homework --model knn --n_neighbors 10
+py -m homework --model knn 
+py -m homework --model knn --n_neighbors 10
 
-python 3 -m homework --model elasticnet
-python 3 -m homework --model elasticnet --alpha 0.4 --l1_ratio 0.6
+py -m homework --model elasticnet
+py -m homework --model elasticnet --alpha 0.4 --l1_ratio 0.6
