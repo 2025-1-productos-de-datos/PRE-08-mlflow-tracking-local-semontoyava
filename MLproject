@@ -1,9 +1,9 @@
-name: homework
+
 
 # (Opcional) si tienes un environment.yml con tus dependencias,
 # descomenta la siguiente línea:
-conda_env: environment.yml
-
+# conda_env: environment.yml
+name: homework
 entry_points:
   elasticnet:
     parameters:
