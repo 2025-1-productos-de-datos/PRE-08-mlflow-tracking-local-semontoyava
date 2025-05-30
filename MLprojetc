@@ -1,13 +1,24 @@
-name: Proyecto de demostracion
+name: homework
+
+# (Opcional) si tienes un environment.yml con tus dependencias,
+# descomenta la siguiente línea:
+# conda_env: environment.yml
 
 entry_points:
-    elasticnet:
-        parameters:
-            alpha: {type: float, default: 0.1}
-            l1_ratio: {type: float, default: 0.1}
-        command: 'python -m homework --model elasticnet --alpha {alpha} --l1_ratio {l1_ratio}'
+  elasticnet:
+    parameters:
+      alpha: {type: float, default: 0.5}
+      l1_ratio: {type: float, default: 0.5}
+    command: >
+      python -m homework.src.main
+        --model elasticnet
+        --alpha {alpha}
+        --l1_ratio {l1_ratio}
 
-    knn:
-        parameters:
-            n_neighbors: {type: int, default: 5}
-        command: 'python -m homework --model knn --n_neighbors {n_neighbors}'
+  knn:
+    parameters:
+      n_neighbors: {type: int, default: 5}
+    command: >
+      python -m homework.src.main
+        --model knn
+        --n_neighbors {n_neighbors}
